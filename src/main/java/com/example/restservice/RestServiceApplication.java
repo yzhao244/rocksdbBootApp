@@ -1,13 +1,13 @@
-package io.stockgeeks;
+package com.example.restservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RocksdbBootAppApplication {
+public class RestServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RocksdbBootAppApplication.class, args);
+		SpringApplication.run(RestServiceApplication.class, args);
 	}
 
 }

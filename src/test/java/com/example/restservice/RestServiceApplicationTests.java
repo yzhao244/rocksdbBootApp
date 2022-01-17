@@ -1,13 +1,14 @@
-package io.stockgeeks;
+package com.example.restservice;
 
 import org.junit.jupiter.api.Test;
+
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RocksdbBootAppApplicationTests {
+public class RestServiceApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
